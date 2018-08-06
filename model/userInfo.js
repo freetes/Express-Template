@@ -15,10 +15,6 @@ const UserSchema = new Schema({
     type: String,
     required: true
   },
-  level: {
-    type: Number,
-    required: true
-  }
 });
 
 //数据模型
