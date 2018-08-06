@@ -1,0 +1,9 @@
+#alertInfoModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myLargeModalLabel')
+  .modal-dialog(role='document')
+    .modal-content
+      .modal-header
+        button.close(data-dismiss="modal",aria-label="Close")
+          span(aria-hidden="true") &times;
+        h4.modal-title.text-muted 通知信息
+      .modal-body
+        .text-center.text-muted.alertMessage

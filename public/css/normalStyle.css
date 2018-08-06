@@ -1,0 +1,109 @@
+body{
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",SimSun, sans-serif !important;
+  font-size: 14px !important;
+  background-color: #FAFAFA !important;
+  font-weight: normal;
+  color: #555 !important;
+}
+
+html{
+  background-color: #FAFAFA;
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 30px !important;
+  line-height: 38px !important;
+  color: #333333 !important;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-size: 24px !important;
+  line-height: 32px !important;
+  color: #363636 !important;
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  font-size: 16px !important;
+  line-height: 28px !important;
+  color: #434343 !important;
+  font-weight: normal !important;
+  margin: 0;
+  padding-left: 10px !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  /* box-shadow: 1px 1px 3px rgba(174, 174, 174, 0.35); */
+}
+
+button.btn, a.btn{
+  padding: 5px 10px;
+  line-height: 20px;
+  background-color: #4A90E2;
+  color: white;
+  font-size: 14px !important;
+  font-weight: normal;
+  /* border: 1px solid gray; */
+  border-radius: 1px;
+  outline: none;
+}
+
+button.btn:hover, a.btn:hover{
+  background-color: rgba(74,144,226, 0.9) !important;
+  color: white;
+}
+a.btn:visited, button.btn:focus{
+  color: white;
+}
+
+input, select{
+  padding: 5px 10px !important;
+  line-height: 26px;
+  background-color: white;
+  color: black;
+  border: 1px solid lightgray;
+  outline:none;
+}
+input:read-only{
+  border: none
+}
+textarea{
+  margin: 5px 10px !important;
+  vertical-align: top;
+  resize: none;
+  width: 250px;
+  border: 1px solid lightgray;
+  outline:none;
+}
+
+table{
+  border-collapse: collapse !important;
+  border-color: #f2f2f2 !important;
+  border: 0;
+}
+
+tbody > tr{
+  cursor: pointer;
+  border: 0;
+}
+
+thead th{
+  font-size: 14px;
+  font-weight: normal;
+  color: #666666;
+  border-bottom: 1px solid #ddd !important;
+}
+
+table td{
+  padding: 8px 15px !important;
+  border: none !important;
+}
+table th{
+  padding: 10px 15px !important;
+}
+button{
+
+}

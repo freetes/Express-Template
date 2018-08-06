@@ -1,0 +1,24 @@
+{
+  "name": "Express Template",
+  "version": "0.0.1",
+  "author": {
+    "email": "freetes@foxmail.com",
+    "name": "freetes",
+    "url": "https://github.com/freetes"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.2.5",
+    "multiparty": "^4.1.4",
+    "nodemailer": "^4.6.7",
+    "pug": "^2.0.3",
+    "serve-favicon": "~2.4.5"
+  }
+}

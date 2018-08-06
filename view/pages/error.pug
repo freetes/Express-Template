@@ -1,0 +1,11 @@
+extends ../layout
+
+block main
+  //- 单独的css
+    link(rel='stylesheet', href='/css/normal.css')
+  link(rel='stylesheet', href='/css/normal.css')
+
+  body
+    h1= message
+    h2= error.status
+    pre #{error.stack}
