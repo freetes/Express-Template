@@ -11,11 +11,11 @@ const mongoose = require('mongoose');
 
 // 连接数据库
 const options = {
-	user : "rule",
-  pass : "ruler123"
+	user : "test",
+  pass : "123"
 }
 
-mongoose.connect('mongodb://@47.104.252.42:27017/rulerTechSystem', options, err=>{
+mongoose.connect('mongodb://@localhost:27017/test', options, err=>{
   if(err)
     console.log("Failed to connect MongoDB Server!");
   else
