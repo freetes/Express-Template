@@ -10,17 +10,17 @@ var http = require('http');
 const mongoose = require('mongoose');
 
 // 连接数据库
-const options = {
-	user : "test",
-  pass : "123"
-}
+// const options = {
+// 	user : "test",
+//   pass : "123"
+// }
 
-mongoose.connect('mongodb://@localhost:27017/test', options, err=>{
-  if(err)
-    console.log("Failed to connect MongoDB Server!");
-  else
-    console.log("Succeed in connecting MongoDB Server!");
-});
+// mongoose.connect('mongodb://@localhost:27017/test', options, err=>{
+//   if(err)
+//     console.log("Failed to connect MongoDB Server!");
+//   else
+//     console.log("Succeed in connecting MongoDB Server!");
+// });
 
 /**
  * Get port from environment and store in Express.

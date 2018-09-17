@@ -4,7 +4,7 @@ const Models = require('../model/dataModel');
 const Home = {
   // GET /
   index: (req, res)=>{
-    return res.render('hello')
+    return res.render('contents/hello')
   },
 
 };
